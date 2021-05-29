@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Digits;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
@@ -15,7 +16,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class StockDTO {
 
-    @NotNull
     private Long id;
 
     @NotNull
